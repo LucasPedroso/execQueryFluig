@@ -1,0 +1,32 @@
+.container-personalizado{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    margin-top: 5vh;
+}
+
+#painel{
+    width: 100%;
+}
+
+#txt_query{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+}
+
+.colunaBotao{
+    display: flex;
+    justify-content: end;
+}
+
+.btn-exec{
+    margin-top: 2vh;
+}
+
