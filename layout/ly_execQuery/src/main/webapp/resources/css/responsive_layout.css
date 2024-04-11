@@ -1,0 +1,26 @@
+#edicaoPagina {
+    container-type: inline-size!important;
+    container-name: wcm-master-wrapper!important;
+}
+
+@container wcm-master-wrapper (max-width: 991px) {
+    #edicaoPagina .layout-2-3left,
+    #edicaoPagina #all-slots-right {
+        width: 100% !important;
+    }
+    .wcm-all-content > #wcm-content {
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #visualizacaoPagina .layout-2-3left,
+    #visualizacaoPagina #all-slots-right,
+    .not-supports-container-queries #edicaoPagina .layout-2-3left,
+    .not-supports-container-queries #edicaoPagina #all-slots-right {
+        width: 100% !important;
+    }
+    .wcm-all-content > #wcm-content {
+        padding-right: 0 !important;
+    }
+}
